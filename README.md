@@ -3,16 +3,16 @@
 
 ## users テーブル
 
-| Column             | Type   | Options     |
-| ----------         | ------ | ----------- |
-| nickname           | string | null: false |
-| email              | string | null: false |
-| password           | string | null: false |
-| familyname         | string | null: false |
-| firstname          | string | null: false |
-| familyname_kana    | string | null: false |
-| firstname_kana     | string | null: false |
-| birthday           | date   | null: false |
+| Column               | Type   | Options     |
+| ----------           | ------ | ----------- |
+| nickname             | string | null: false |
+| email                | string | null: false |
+| encrypted_password   | string | null: false |
+| familyname           | string | null: false |
+| firstname            | string | null: false |
+| familyname_kana      | string | null: false |
+| firstname_kana       | string | null: false |
+| birthday             | date   | null: false |
 
 
 ### Association
@@ -25,17 +25,17 @@
 
 ## items テーブル
 
-| Column           | Type       | Options                        |
-| -----------      | ---------- | ------------------------------ |
-| name             | string     | null: false                    |
-| text             | text       | null: false                    |
-| category         | text       | null: false                    |
-| condition        | text       | null: false                    |
-| shipping_cost    | integer    | null: false                    |
-| shipping_area    | integer    | null: false                    |
-| days to ship     | integer    | null: false                    |
-| price            | text       | null: false                    |
-| user             | references | null: false, foreign_key: true |
+| Column              | Type       | Options                        |
+| -----------         | ---------- | ------------------------------ |
+| name                | string     | null: false                    |
+| text                | text       | null: false                    |
+| category_id         | integer    | null: false                    |
+| condition_id        | integer    | null: false                    |
+| shipping_cost_id    | integer    | null: false                    |
+| shipping_area_id    | integer    | null: false                    |
+| days_to_ship_id     | integer    | null: false                    |
+| price               | text       | null: false                    |
+| user                | references | null: false, foreign_key: true |
 
 
 ### Association
@@ -67,7 +67,7 @@
 | Column              | Type       | Options                        |
 | -----------         | ---------- | ------------------------------ |
 | postal_code         | string     | null: false                    |
-| prefectures         | integer    | null: false                    |
+| prefecture_id      | integer    | null: false                    |
 | municipalities      | string     | null: false                    |
 | address             | string     | null: false                    |
 | building_name       | string     |                                |
