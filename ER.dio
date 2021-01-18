@@ -1,6 +1,6 @@
-<mxfile host="65bd71144e" modified="2021-01-14T11:56:40.805Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36" version="13.10.0" etag="-oAvk98Ij9YTGR0KiM9Y" type="embed">
+<mxfile host="65bd71144e" modified="2021-01-16T15:28:10.316Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36" version="13.10.0" etag="8fRavmzrkOA4Dj8m5oE0" type="embed">
     <diagram id="dvQrDU9FEF2RXBE6HVYm" name="ページ1">
-        <mxGraphModel dx="1328" dy="1060" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+        <mxGraphModel dx="415" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -68,7 +68,7 @@
                 <mxCell id="38" value="user(FK)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="11">
                     <mxGeometry y="280" width="160" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="57" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.388;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;strokeWidth=2;startArrow=ERmany;startFill=0;" edge="1" parent="1" source="39" target="38">
+                <mxCell id="57" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.388;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;strokeWidth=2;startArrow=classic;startFill=1;" edge="1" parent="1" source="39" target="38">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="39" value="buyers" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;strokeWidth=1;" vertex="1" parent="1">
