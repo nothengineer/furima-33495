@@ -7,11 +7,6 @@ class ItemsController < ApplicationController
 
   def new
     @item = Item.new
-    # @category_id = Category_id.all
-    # @condition_id = Condition_id.all
-    # @shipping_cost_id = Shipping_cost_id.all
-    # @prefecture_id = Prefecture_id.all
-    # @days_to_ship_id = Days_to_ship_id.all
   end
 
   def create
