@@ -44,7 +44,7 @@
 - has_one :buyer
 
 
-## buyers テーブル
+## orders テーブル
 
 | Column      | Type       | Options                        |
 | ----------- | ---------- | ------------------------------ |
