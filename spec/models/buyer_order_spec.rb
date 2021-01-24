@@ -79,8 +79,14 @@ RSpec.describe Order, type: :model do
         @buyer_order.valid?
         expect(@buyer_order.errors.full_messages).to include("Token can't be blank")
       end
-      it "購入できる時" do
-        expect(@buyer_order).to be_valid
+      context '商品購入ができる時' do
+        it "全てにおいて入力に問題がなければ購入できる" do
+          expect(@buyer_order).to be_valid
+          end 
+        it "建物名が空でも購入できる" do
+          @buyer_order.building_name = ""
+          expect(@buyer_order).to be_valid
+        end 
       end
     end
   end
